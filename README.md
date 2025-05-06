@@ -1,25 +1,25 @@
-# Hi!
+# lazzydisa at the device!
 
 ## About me:
-name: lazzydisa (or DiSa)
-profession: shitposter (and scripter in later... mb...)
+#### name: lazzydisa (or DiSa)
+#### profession: shitposter (and scripter in later... mb...)
 
 ## Why I'm here:
-my friend called... 
-
-and just for fun... damn...
+#### my friend called... 
+#### and just for fun... damn...
 
 ## Others:
 ### System:
-I use NixOS 
-
-For editing any code i use Vim
-
+#### I use NixOS 
+#### For editing any code i use Vim
+#
 ### Languages:
-Lua, Bash, Nim, C
+#### Lua (For different easy scripts) 
+#### Bash (Scripts for my system)
+#### Nim (For my programs...)
 
 #
 
-(I'm just learning programming,
-that's why i have no projects and ideas.
-Don't judge strictly pls..)
+##### (I'm just learning programming,
+##### that's why i have no projects and ideas.
+##### Don't judge strictly pls...)
