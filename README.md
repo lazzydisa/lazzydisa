@@ -20,6 +20,6 @@
 
 #
 
-##### (I'm just learning programming,
-##### that's why i have no projects and ideas.
-##### Don't judge strictly pls...)
+ (I'm just learning programming,
+ that's why i have no projects and ideas.
+ Don't judge strictly pls...)
