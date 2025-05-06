@@ -1,9 +1,8 @@
 # Hi!
 
 ## About me:
-name: lazzydisa (or DiSa)
-
-profession: shitposter (and scripter in later... mb...)
+name: lazzydisa (or DiSa);
+profession: shitposter (and scripter in later... mb...);
 
 ## Why I'm here:
 my friend called... 
