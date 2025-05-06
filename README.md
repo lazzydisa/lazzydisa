@@ -1,4 +1,4 @@
-### Hi!
+# Hi!
 
 ## About me:
 name: lazzydisa (or DiSa)
@@ -9,10 +9,10 @@ my friend called...
 and just for fun... damn...
 
 ## Others:
-# System:
+### System:
 I use NixOS
 For editing any code i use Vim
-# Languages:
+### Languages:
 Lua, Bash, Nim, C
 
 (I'm just learning programming,
