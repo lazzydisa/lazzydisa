@@ -15,6 +15,8 @@ For editing any code i use Vim
 ### Languages:
 Lua, Bash, Nim, C
 
+#
+
 (I'm just learning programming,
 that's why i have no projects and ideas.
 Don't judge strictly pls..)
