@@ -3,11 +3,11 @@
 #
 
 # screenshots of monitor's parts
-ctrl + shift + s
+alt + z
     flameshot gui
 
 # screenshot of all monitor
-ctrl + shift + d
+alt + x
     flameshot screen
 
 
@@ -21,7 +21,7 @@ super + Return
 
 # program launcher
 super + @space
-	dmenu_run
+	dmenu_run -fn "FantasqueSansMono-Regular=15" -nb "#5e1b58" -nf "#ffffff" -sb "#f222dd" -sf "#CACACA"
 
 # make sxhkd reload its configuration files:
 super + Escape
