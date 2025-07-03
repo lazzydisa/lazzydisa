@@ -39,6 +39,9 @@ call plug#begin()
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
 
+    " NerdTree
+    Plug 'preservim/nerdtree'
+
 call plug#end()
 
 " Others
@@ -61,3 +64,6 @@ call plug#end()
         let g:airline#extensions#tabline#left_alt_sep = '|'
         let g:airline#extensions#tabline#formatter = 'unique_tail'
         let g:airline_theme='violet' " favorite themes: (light) tomorrow, silver, biogoo  /  (dark) base16, violet       
+
+    " For NerdTree
+        autocmd VimEnter * NERDTree | wincmd p 
