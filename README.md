@@ -20,6 +20,7 @@
 #### Lua (For different easy scripts) 
 #### Bash (Scripts for my system)
 #### Nim (For my programs...)
+#### C (For the programs too)
 #### For editing any code i use Vim
 
 #
