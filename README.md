@@ -11,9 +11,9 @@
 ## Others:
 
 ### System:
-#### OS: NixOS 25.05 (Warbler) x86_64
-#### Kernel: Linux 6.14.5-zen1
-#### Shell: bash 5.2.37
+#### OS: Void Linux x86_64
+#### Kernel: Linux 6.12.35_1
+#### Shell: zsh 5.9
 
 #
 ### Languages:
