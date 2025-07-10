@@ -1,6 +1,6 @@
 " General
 set number
-colorscheme habamax " favorite themes: light: shine / dark: habamax, slate, sorbet
+colorscheme sorbet " favorite themes: light: shine / dark: habamax, slate, sorbet
 set cursorline
 syntax on
 set mouse=a
@@ -29,11 +29,16 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 
+" System buffer
+if has('clipboard')
+    set clipboard=unnamedplus
+endif
+
 " Plugins (With vim-plug)
 call plug#begin()
     
-    " Nim
-    Plug 'zah/nim.vim'
+    " Vim polyglot
+    Plug 'sheerun/vim-polyglot'
     
     " Airline
     Plug 'vim-airline/vim-airline'
@@ -63,7 +68,9 @@ call plug#end()
         let g:airline#extensions#tabline#left_sep = ' '
         let g:airline#extensions#tabline#left_alt_sep = '|'
         let g:airline#extensions#tabline#formatter = 'unique_tail'
-        let g:airline_theme='violet' " favorite themes: (light) tomorrow, silver, biogoo  /  (dark) base16, violet       
-
-    " For NerdTree
+        let g:airline_theme='violet' " favorite themes: (light) tomorrow, silver, biogoo  /  (dark) base16, violet      
+    " Start NERDTree and leave the cursor in it.
         autocmd VimEnter * NERDTree | wincmd p 
+
+    " For vim-polyglot
+        set nocompatible
