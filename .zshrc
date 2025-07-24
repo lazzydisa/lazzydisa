@@ -14,7 +14,7 @@ promptinit
 zstyle ':completion:*' menu select
 
 autoload -U colors && colors
-PROMPT="%{$fg[magenta]%}[%n] %{$fg[red]%}&& %{$fg[green]%}[%m] 
-%{$fg[cyan]%}(%d) %{$fg[black]%} >>>  "
+#PROMPT="%{$fg[magenta]%}[%n] %{$fg[red]%}&& %{$fg[green]%}[%m] 
+#%{$fg[cyan]%}(%d) %{$fg[black]%} >>>  "
 
-#PROMPT="%F{magenta}%n%f %F{cyan}>>>%f "
+PROMPT="%F{#d4d4fc}[%n]%f%F{#a5a3c6}[%~]%f %F{#d3cef1}>%f "
