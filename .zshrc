@@ -17,4 +17,4 @@ autoload -U colors && colors
 #PROMPT="%{$fg[magenta]%}[%n] %{$fg[red]%}&& %{$fg[green]%}[%m] 
 #%{$fg[cyan]%}(%d) %{$fg[black]%} >>>  "
 
-PROMPT="%F{#d4d4fc}[%n]%f%F{#a5a3c6}[%~]%f %F{#d3cef1}>%f "
+PROMPT="%F{#b360b0}[%n]%f%F{#ccaa2f}[%~]%f %F{#cc542f}>%f "
