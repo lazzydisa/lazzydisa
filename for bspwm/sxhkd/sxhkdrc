@@ -21,7 +21,7 @@ super + Return
 
 # program launcher
 super + @space
-	dmenu_run -fn "FantasqueSansMono-Regular=15" -nb "#c5c2ee" -nf "#74748c" -sb "#74748c" -sf "#b2b5de"
+	dmenu_run -fn "FantasqueSansMono-Regular=15" -nb "#382a3d" -nf "#b397bd" -sb "#b397bd" -sf "#a622d6"
 
 # make sxhkd reload its configuration files:
 super + Escape
