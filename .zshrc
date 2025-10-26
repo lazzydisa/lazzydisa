@@ -17,4 +17,7 @@ autoload -U colors && colors
 #PROMPT="%{$fg[magenta]%}[%n] %{$fg[red]%}&& %{$fg[green]%}[%m] 
 #%{$fg[cyan]%}(%d) %{$fg[black]%} >>>  "
 
-PROMPT="%F{#b360b0}[%n]%f%F{#dbeb2d}[%t]%f%F{#ccaa2f}[%~]%f %F{#cc542f}>%f "
+PROMPT="%F{#F0EDE8}[%n]%f%F{#2C382F}[%~]%f %F{#F0EDE8}>%f "
+
+# Created by `pipx` on 2025-09-27 18:27:54
+export PATH="$PATH:/home/lazzydisa/.local/bin"
