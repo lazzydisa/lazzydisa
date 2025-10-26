@@ -53,4 +53,4 @@ feh --bg-scale /wallpaper/'forest.jpg' &
 
 
 # status bar (dzen2)
-sh ~/.config/dzen2/time.sh | dzen2 -bg '#808D79' -fg '#D9D7CA' -fn 'NotoSans' -e -u -p &
+while true; do date; done | dzen2 -bg '#808D79' -fg '#D9D7CA' -fn 'NotoSans' -e -u -p &
