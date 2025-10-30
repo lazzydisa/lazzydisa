@@ -5,7 +5,7 @@ sxhkd &
 bspc monitor -d 1 2 3 4 5 6
 
 bspc config border_width        3
-bspc config window_gap          20
+bspc config window_gap          25
 
 bspc config normal_border_color     "#BFC1B1"
 bspc config active_border_color     "#718173"
