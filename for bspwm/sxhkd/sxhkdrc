@@ -21,7 +21,7 @@ super + Return
 
 # program launcher
 super + @space
-	dmenu_run -fn "NotoSans=10" -nb "#808D79" -nf "#D9D7CA" -sb "#6F7866" -sf "#D9D7CA"
+	dmenu_run -fn "NotoSans=10" -nb "#808D79" -nf "#D9D7CA" -sb "#6F7866" -sf "#D9D7CA" -p
 
 # make sxhkd reload its configuration files:
 super + Escape
