@@ -1,6 +1,7 @@
 " General
 set number
-colorscheme sorbet " favorite themes: light: shine / dark: habamax, slate, sorbet
+" colorscheme habamax " for dark quiet theme works
+colorscheme habamax " favorite themes: light: shine, zeller, quiet / dark: habamax, sorbet, quiet, retrobox, slate 
 set cursorline
 syntax on
 set mouse=a
@@ -41,8 +42,8 @@ call plug#begin()
     Plug 'sheerun/vim-polyglot'
     
     " Airline
-    Plug 'vim-airline/vim-airline'
-    Plug 'vim-airline/vim-airline-themes'
+    "Plug 'vim-airline/vim-airline'
+    "Plug 'vim-airline/vim-airline-themes'
 
     " NerdTree
     Plug 'preservim/nerdtree'
@@ -50,25 +51,13 @@ call plug#begin()
 call plug#end()
 
 " Others
-    " For Nim
-        fun! JumpToDef()
-            if exists("*GotoDefinition_" . &filetype)
-                call GotoDefinition_{&filetype}()
-            else
-                exe "norm! \<C-]>"
-            endif
-        endf
-
-        " Jump to tag
-        nn <M-g> :call JumpToDef()<cr>
-        ino <M-g> <esc>:call JumpToDef()<cr>i
 
     " For Airline
-        let g:airline#extensions#tabline#enabled = 1
-        let g:airline#extensions#tabline#left_sep = ' '
-        let g:airline#extensions#tabline#left_alt_sep = '|'
-        let g:airline#extensions#tabline#formatter = 'unique_tail'
-        let g:airline_theme='violet' " favorite themes: (light) tomorrow, silver, biogoo  /  (dark) base16, violet      
+        "let g:airline#extensions#tabline#enabled = 1
+        "let g:airline#extensions#tabline#left_sep = ' '
+        "let g:airline#extensions#tabline#left_alt_sep = '|'
+        "let g:airline#extensions#tabline#formatter = 'unique_tail'
+        "let g:airline_theme='violet' " favorite themes: (light) tomorrow, silver, biogoo  /  (dark) base16, violet      
     " Start NERDTree and leave the cursor in it.
         autocmd VimEnter * NERDTree | wincmd p 
 
