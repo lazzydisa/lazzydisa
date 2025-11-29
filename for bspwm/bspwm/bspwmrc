@@ -57,4 +57,4 @@ feh --bg-scale /wallpaper/'forest.jpg' &
 
 
 # status bar (polybar)
-polybar &
+polybar bar1 & polybar bar2 & polybar bar3
